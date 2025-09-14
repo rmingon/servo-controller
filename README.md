@@ -3,6 +3,10 @@
 This repository contains the design files, schematics, and PCB layout for a compact, custom-made dual-servo testing platform.
 It is designed for engineers, makers, and robotics developers who need a reliable and convenient way to drive and test two RC servos simultaneously from a PC.
 
+![3d](./3d.png)
+![pcb](./pcb.png)
+![schematic](./schematic.png)
+
 ## Overview
 
 This board is built around the ATmega328P microcontroller (the same MCU used in Arduino Uno), making it extremely flexible and easy to program.
@@ -14,41 +18,43 @@ The board includes XT60 and XT30 connectors for safe and reliable power input, m
 
 - Dual Servo Control  
   Two independent PWM channels allow you to control and test two RC servos simultaneously.
-  
-- Robust Power Delivery  
-  - XT60 and XT30 connectors for battery/power input  
-  - Onboard LM1117-5 voltage regulator for a stable 5V rail  
+- Robust Power Delivery
 
-- USB-to-UART Interface  
-  - CH340 USB-to-serial converter  
+  - XT60 and XT30 connectors for battery/power input
+  - Onboard LM1117-5 voltage regulator for a stable 5V rail
+
+- USB-to-UART Interface
+
+  - CH340 USB-to-serial converter
   - Direct connection to PC for programming and control
 
-- Microcontroller  
-  - ATmega328P running at 16 MHz  
-  - Fully Arduino-compatible for easy firmware development  
+- Microcontroller
 
-- Test Points & Expandability  
-  - Breakout headers for ISP programming  
-  - Extra I/O pins available for debugging or future expansions  
+  - ATmega328P running at 16 MHz
+  - Fully Arduino-compatible for easy firmware development
+
+- Test Points & Expandability
+  - Breakout headers for ISP programming
+  - Extra I/O pins available for debugging or future expansions
 
 ## Connectors & Interfaces
 
-| Connector | Function |
-|----------|----------|
-| XT60 | Primary power input (+BAT, GND) |
-| XT30 | Secondary power option |
-| USB-C | UART communication with PC |
-| J3 | AVR-ISP programming header |
-| J4 / J5 | Servo PWM outputs |
+| Connector | Function                        |
+| --------- | ------------------------------- |
+| XT60      | Primary power input (+BAT, GND) |
+| XT30      | Secondary power option          |
+| USB-C     | UART communication with PC      |
+| J3        | AVR-ISP programming header      |
+| J4 / J5   | Servo PWM outputs               |
 
 ## Electrical Characteristics
 
-| Parameter | Value |
-|----------|-------|
-| Input Voltage | 6 – 12 V (recommended) |
-| Logic Voltage | 5 V |
+| Parameter     | Value                      |
+| ------------- | -------------------------- |
+| Input Voltage | 6 – 12 V (recommended)     |
+| Logic Voltage | 5 V                        |
 | PWM Frequency | ~50 Hz (standard RC servo) |
-| MCU Clock | 16 MHz |
+| MCU Clock     | 16 MHz                     |
 
 ## Software & Usage
 
@@ -60,6 +66,7 @@ The board includes XT60 and XT30 connectors for safe and reliable power input, m
 ## Project Files
 
 This repository contains:
+
 - KiCad PCB Layout (`hardware.kicad_pcb`)
 - Schematic (`hardware.kicad_sch`)
 - Project Configuration Files (`.kicad_pro`, `.kicad_prl`)
@@ -74,6 +81,6 @@ This repository contains:
 
 ## Future Improvements
 
-- Add current sensing for each servo channel  
-- Optional I²C/UART expansion for external sensors  
-- Integrate reverse-polarity protection on power input  
+- Add current sensing for each servo channel
+- Optional I²C/UART expansion for external sensors
+- Integrate reverse-polarity protection on power input
