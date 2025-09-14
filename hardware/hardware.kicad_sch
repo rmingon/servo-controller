@@ -5,6 +5,267 @@
 	(uuid "ecb7a4fc-1a90-4634-9530-080d383ac8ef")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:AVR-ISP-6"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AVR-ISP-6"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -6.35 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -32.385 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Atmel 6-pin ISP connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AVR ISP Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "IDC?Header*2x03* Pin?Header*2x03*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AVR-ISP-6_0_1"
+				(rectangle
+					(start -2.667 10.16)
+					(end -2.413 9.398)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.667 -6.858)
+					(end -2.413 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 10.16)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 7.62 5.207)
+					(end 6.858 4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 2.667)
+					(end 6.858 2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 0.127)
+					(end 6.858 -0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -2.413)
+					(end 6.858 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AVR-ISP-6_1_1"
+				(pin passive line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Plug"
 			(pin_names
 				(offset 1.016)
@@ -4403,16 +4664,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 116.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1e9a56d-f6b8-4535-acce-b022bd5207ca")
-	)
-	(wire
-		(pts
 			(xy 257.81 78.74) (xy 257.81 66.04)
 		)
 		(stroke
@@ -4543,9 +4794,9 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "RST"
 		(shape input)
-		(at 273.05 88.9 0)
+		(at 158.75 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4553,9 +4804,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1a7bbc04-58d5-46be-a87c-9e6b45868cde")
+		(uuid "13f8de89-9801-4626-9597-475508620c42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.6918 88.9 0)
+			(at 165.1823 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,6 +4860,50 @@
 			)
 		)
 	)
+	(global_label "MOSI"
+		(shape input)
+		(at 158.75 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35ac1ace-febe-4ff1-8393-a3cc42a553bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.3314 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 273.05 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e6e9f72-459c-47fc-a8d7-cfd4acf0ca4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.6314 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PD6"
 		(shape input)
 		(at 99.06 67.31 0)
@@ -4644,6 +4939,28 @@
 		(uuid "57ec9a3a-cc79-4d2b-8b3b-f56af8c59e41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.3885 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 158.75 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71ff8417-cdc5-4371-95af-53671ab617d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.3314 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,6 +5014,28 @@
 			)
 		)
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 158.75 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b7bb81c-9cb7-4978-96f7-cad8bd7217d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.4847 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XTAL2"
 		(shape input)
 		(at 273.05 104.14 0)
@@ -4741,6 +5080,94 @@
 			)
 		)
 	)
+	(global_label "LED1"
+		(shape input)
+		(at 273.05 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90514bc6-892d-476d-b23a-ef12c162d107")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.6918 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 273.05 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97947788-fa2d-4329-9dbb-b608d0752cda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.7847 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 273.05 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5141286-62cf-4ef2-8724-251f48fbd36b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.6314 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM1"
+		(shape input)
+		(at 273.05 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a668193a-ada5-4cac-8c6c-5ea9dd280ba6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.4175 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XTAL2"
 		(shape input)
 		(at 88.9 123.19 0)
@@ -4776,6 +5203,50 @@
 		(uuid "b052ede0-9134-4882-9006-2ecc1f6741db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.1 109.1982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 99.06 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b29cd5d2-b472-4525-9a59-9a3f8b220a12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.4923 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM2"
+		(shape input)
+		(at 273.05 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe6eedfc-95e6-486c-afb6-2dbbbcb40dab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.4175 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -5898,6 +6369,72 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
+		(at 146.05 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d0a6379-c2ae-4ec4-978b-c25b8e98a7ca")
+		(property "Reference" "#PWR016"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "723f8101-43cf-4d3b-8d5d-9926431331b6")
+		)
+		(instances
+			(project "hardware"
+				(path "/ecb7a4fc-1a90-4634-9530-080d383ac8ef"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
 		(at 46.99 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6382,6 +6919,72 @@
 			(project "hardware"
 				(path "/ecb7a4fc-1a90-4634-9530-080d383ac8ef"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ca78ad9-1efa-43fd-bf3d-5a2a2f93eead")
+		(property "Reference" "#PWR017"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "837d9ac4-4099-4f21-8f96-38f92f2a7052")
+		)
+		(instances
+			(project "hardware"
+				(path "/ecb7a4fc-1a90-4634-9530-080d383ac8ef"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7001,7 +7604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -7038,6 +7641,88 @@
 			(project "hardware"
 				(path "/ecb7a4fc-1a90-4634-9530-080d383ac8ef"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:AVR-ISP-6")
+		(at 148.59 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baf4d828-c099-4ec0-8f6b-6c9d2dce9092")
+		(property "Reference" "J3"
+			(at 139.7 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AVR-ISP-6"
+			(at 139.7 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 142.24 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.205 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Atmel 6-pin ISP connector"
+			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fe13586-c2b2-4ee7-8a75-389ebbfcd1cb")
+		)
+		(pin "4"
+			(uuid "d91050c7-d0d2-45c7-8b75-a44c532bcfdd")
+		)
+		(pin "3"
+			(uuid "edaa804a-9226-4ca6-8c6f-d6c502ba7cf9")
+		)
+		(pin "5"
+			(uuid "596e68bc-543f-422a-a52f-3ed86980a5f3")
+		)
+		(pin "2"
+			(uuid "6656e0fd-a9d4-4515-9ca4-293a89f46a2c")
+		)
+		(pin "6"
+			(uuid "b0cf6b0a-0a4a-4ee3-b9ce-b2a92ff9fecb")
+		)
+		(instances
+			(project ""
+				(path "/ecb7a4fc-1a90-4634-9530-080d383ac8ef"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7203,7 +7888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 260.35 72.39 0)
 			(effects
 				(font
@@ -7619,7 +8304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.33 71.12 0)
 			(effects
 				(font
@@ -7834,7 +8519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 71.12 0)
 			(effects
 				(font
